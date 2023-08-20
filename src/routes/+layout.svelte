@@ -1,14 +1,16 @@
 <script>
-	import "../css/styles.css";
-	import "../css/tachyons.css";
+  import "../css/styles.css";
+  import "../css/tachyons.css";
 </script>
 
 <div class="app">
-	<main>
-		<slot />
-	</main>
+  <main>
+    <slot />
+  </main>
 
-	<footer>
-		<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
-	</footer>
+  <footer>
+    <p>
+      -------------------------------------------------------------------------------------
+    </p>
+  </footer>
 </div>
