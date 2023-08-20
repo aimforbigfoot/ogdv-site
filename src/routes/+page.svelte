@@ -1,8 +1,23 @@
+<script>
+    import AboutUs from "../comps/AboutUs.svelte";
+import EventInfo from "../comps/EventInfo.svelte";
+import IntroPage from "../comps/IntroPage.svelte";
+
+</script>
+
+<svelte:head>
+	<title>Home</title>
+	<meta name="description" content="Svelte demo app" />
+</svelte:head>
 
 
-<div class="container h-full mx-auto flex justify-center items-center">
-	<div class="space-y-10 text-center flex flex-col items-center">
-		<p class="text-4xl">Ontario Game Dev Verse Game Jam</p>
-		<p> <a  href="/joinlist"> Want to stay in the loop?</a> </p>
+<main class="ml-auto mr-auto w-80">
+	<IntroPage />
+	<EventInfo />
+	<AboutUs />
+	<p> HELLO I AM ALIVE </p>
+	
+	<div class="rainbow-box">
+		helol
 	</div>
-</div>
+</main>
