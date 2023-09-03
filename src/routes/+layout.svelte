@@ -1,16 +1,13 @@
 <script>
-  import "../css/styles.css";
+  import SiteFooter from "../comps/SiteFooter.svelte";
+import "../css/styles.css";
   import "../css/tachyons.css";
 </script>
 
-<div class="app">
+<div class="app bg-black">
   <main>
     <slot />
   </main>
+  <SiteFooter />
 
-  <footer>
-    <p>
-      -------------------------------------------------------------------------------------
-    </p>
-  </footer>
 </div>

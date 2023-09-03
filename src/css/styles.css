@@ -17,28 +17,17 @@
 }
 
 .rainbow-box {
-    width: 80vw;
-    height: 200px;
-    border-radius: 5px;
-    background: linear-gradient(
-        90deg,
-        rgba(255, 0, 0, 1) 0%,
-        rgba(255, 154, 0, 1) 10%,
-        rgba(208, 222, 33, 1) 20%,
-        rgba(79, 220, 74, 1) 30%,
-        rgba(63, 218, 216, 1) 40%,
-        rgba(47, 201, 226, 1) 50%,
-        rgba(28, 127, 238, 1) 60%,
-        rgba(95, 21, 242, 1) 70%,
-        rgba(186, 12, 248, 1) 80%,
-        rgba(251, 7, 217, 1) 90%,
-        rgba(255, 0, 0, 1) 100%
-    );
+	background-image: url("../lib/images/background.png");
+	background-size:100% auto;
+    background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 body {
 	min-height: 100vh;
 	margin: 0;
+	padding: 0;
 	background-attachment: fixed;
 	background-color: var(--color-bg-1);
 	background-size: 100vw 100vh;
@@ -48,6 +37,19 @@ body {
 			rgba(255, 255, 255, 0) 100%
 		),
 		linear-gradient(180deg, var(--color-bg-0) 0%, var(--color-bg-1) 15%, var(--color-bg-2) 50%);
+}
+
+
+
+.aboutUsBox {
+    border-radius: 30px;
+    background-color: navy;
+    color: whitesmoke;
+    border: 1em;
+    border-style: solid;
+    border-radius: 30px;
+    border-color: aliceblue;
+	padding: 1em;
 }
 
 h1,
@@ -69,6 +71,16 @@ a:hover {
 	text-decoration: underline;
 }
 
+footer{
+    position: fixed;
+    height: 150px;
+    background-color: red;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}
+
 h1 {
 	font-size: 2rem;
 	text-align: center;
@@ -78,6 +90,50 @@ h2 {
 	font-size: 1rem;
 }
 
+.redAndWhiteBar{
+	background-image: url("../lib/images/chacker_left_boarder.png");
+	
+    background-position: left center;
+	width: 2em;
+	height: 40em;
+
+	overflow-y: hidden;
+	position: sticky;
+    background-repeat: repeat-y;
+}
+
+
+.white-text-with-red-shadow {
+	color: white;
+	text-shadow: 2px 2px 4px red;
+	font-weight: bold;
+	-webkit-text-stroke: 1px red;  /* For WebKit browsers like Chrome and Safari */
+	text-stroke: 1px red;          /* Standard syntax, but currently not widely supported */
+  }
+
+
+  .pulsating-shadow {
+	color: white;
+	font-weight: bold;
+	-webkit-text-stroke: 1px red;
+	animation: pulsate 1.5s infinite alternate;
+  }
+
+  .bigBlitzText{
+	font-size: 8em;
+	padding: 0;
+	margin:  0;
+	padding-top: -1em;
+  }
+
+  @keyframes pulsate {
+	from {
+	  text-shadow: 0 0 5px red;
+	}
+	to {
+	  text-shadow: 0 0 20px red, 0 0 30px red;
+	}
+  }
 pre {
 	font-size: 16px;
 	font-family: var(--font-mono);

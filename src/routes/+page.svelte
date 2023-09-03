@@ -3,6 +3,7 @@
     import EmailSignUp from "../comps/EmailSignUp.svelte";
   import EventInfo from "../comps/EventInfo.svelte";
   import IntroPage from "../comps/IntroPage.svelte";
+    import RedAndWhiteBar from "../comps/RedAndWhiteBar.svelte";
 </script>
 
 <svelte:head>
@@ -10,9 +11,14 @@
   <meta name="description" content="Svelte demo app" />
 </svelte:head>
 
-<main class="w-100-l">
+<main class="w-100-l rainbow-box">
+  <RedAndWhiteBar />
   <IntroPage />
-  <EventInfo />
+  <hr>
   <AboutUs />
+  <hr>
+  <EventInfo />
+  <hr>
   <EmailSignUp />
+  <hr>
 </main>
