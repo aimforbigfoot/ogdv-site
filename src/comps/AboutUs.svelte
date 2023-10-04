@@ -1,4 +1,4 @@
-<div class="  pa4">
+<div class=" w-80 ml-auto mr-auto pa4">
 
   <h1 class="h1 tl white">About Us!</h1>
 

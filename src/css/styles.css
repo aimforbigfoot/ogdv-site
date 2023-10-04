@@ -91,15 +91,14 @@ h2 {
 }
 
 .redAndWhiteBar{
-	background-image: url("../lib/images/chacker_left_boarder.png");
-	
-    background-position: left center;
-	width: 2em;
-	height: 40em;
+		background: url("../lib/images/chacker_left_boarder.png");
 
-	overflow-y: hidden;
-	position: sticky;
-    background-repeat: repeat-y;
+		position: absolute;  /* Start with absolute positioning */
+		top: 0;              
+		left: 0;             
+		width: 24px;         
+		height: 2249px;        /* Height of the image */
+		z-index: 9999;     
 }
 
 

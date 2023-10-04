@@ -1,3 +1,10 @@
+<style>
+    footer{
+        z-index: 99999;
+    }
+</style>
+
+
 
 <footer class="tc bg-black white pb4 mt0 pt0 footer">
     <p>
