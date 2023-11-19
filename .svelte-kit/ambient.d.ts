@@ -42,7 +42,6 @@ declare module '$env/static/private' {
 	export const DISPLAY: string;
 	export const DriverData: string;
 	export const EDITOR: string;
-	export const EFC_8272: string;
 	export const EXEPATH: string;
 	export const FPS_BROWSER_APP_PROFILE_STRING: string;
 	export const FPS_BROWSER_USER_PROFILE_STRING: string;
@@ -62,7 +61,6 @@ declare module '$env/static/private' {
 	export const MINGW_CHOST: string;
 	export const MINGW_PACKAGE_PREFIX: string;
 	export const MINGW_PREFIX: string;
-	export const MSYS: string;
 	export const MSYSTEM: string;
 	export const MSYSTEM_CARCH: string;
 	export const MSYSTEM_CHOST: string;
@@ -76,6 +74,7 @@ declare module '$env/static/private' {
 	export const npm_config_global_prefix: string;
 	export const npm_config_init_module: string;
 	export const npm_config_local_prefix: string;
+	export const npm_config_metrics_registry: string;
 	export const npm_config_node_gyp: string;
 	export const npm_config_noproxy: string;
 	export const npm_config_npm_version: string;
@@ -91,7 +90,10 @@ declare module '$env/static/private' {
 	export const npm_package_name: string;
 	export const npm_package_version: string;
 	export const NUMBER_OF_PROCESSORS: string;
+	export const OculusBase: string;
 	export const OneDrive: string;
+	export const OneDriveCommercial: string;
+	export const OneDriveConsumer: string;
 	export const ORIGINAL_PATH: string;
 	export const ORIGINAL_TEMP: string;
 	export const ORIGINAL_TMP: string;
@@ -136,6 +138,7 @@ declare module '$env/static/private' {
 	export const VSCODE_GIT_IPC_HANDLE: string;
 	export const WINDIR: string;
 	export const _: string;
+	export const __PSLockDownPolicy: string;
 }
 
 /**
@@ -181,7 +184,6 @@ declare module '$env/dynamic/private' {
 		DISPLAY: string;
 		DriverData: string;
 		EDITOR: string;
-		EFC_8272: string;
 		EXEPATH: string;
 		FPS_BROWSER_APP_PROFILE_STRING: string;
 		FPS_BROWSER_USER_PROFILE_STRING: string;
@@ -201,7 +203,6 @@ declare module '$env/dynamic/private' {
 		MINGW_CHOST: string;
 		MINGW_PACKAGE_PREFIX: string;
 		MINGW_PREFIX: string;
-		MSYS: string;
 		MSYSTEM: string;
 		MSYSTEM_CARCH: string;
 		MSYSTEM_CHOST: string;
@@ -215,6 +216,7 @@ declare module '$env/dynamic/private' {
 		npm_config_global_prefix: string;
 		npm_config_init_module: string;
 		npm_config_local_prefix: string;
+		npm_config_metrics_registry: string;
 		npm_config_node_gyp: string;
 		npm_config_noproxy: string;
 		npm_config_npm_version: string;
@@ -230,7 +232,10 @@ declare module '$env/dynamic/private' {
 		npm_package_name: string;
 		npm_package_version: string;
 		NUMBER_OF_PROCESSORS: string;
+		OculusBase: string;
 		OneDrive: string;
+		OneDriveCommercial: string;
+		OneDriveConsumer: string;
 		ORIGINAL_PATH: string;
 		ORIGINAL_TEMP: string;
 		ORIGINAL_TMP: string;
@@ -275,6 +280,7 @@ declare module '$env/dynamic/private' {
 		VSCODE_GIT_IPC_HANDLE: string;
 		WINDIR: string;
 		_: string;
+		__PSLockDownPolicy: string;
 		[key: `PUBLIC_${string}`]: undefined;
 		[key: `${string}`]: string | undefined;
 	}

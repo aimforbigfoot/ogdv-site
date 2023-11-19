@@ -1,11 +1,44 @@
-<div class=" w-80 ml-auto mr-auto pa4">
+<script>
+</script>
 
-  <h1 class="h1 tl white">About Us!</h1>
+<div   class="boxAround w-80 ml-auto mr-auto pa4" id="aboutUs">
+    <h1 class="h1 tl white">About Us!</h1>
 
-  <div class="aboutUsBox pa3 ">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent est lorem, malesuada quis euismod quis, ornare in mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis risus est, dignissim sit amet nisi eu, venenatis lobortis ex. Sed ultrices vestibulum ultricies. In hac habitasse platea dictumst. Nunc ac varius risus, at efficitur mauris. Cras non massa diam. Ut finibus erat tortor, vel congue risus auctor a. Fusce ac consectetur velit, vitae convallis libero. Donec nec justo eget magna accumsan vulputate et ac odio. Quisque vulputate lorem libero, ac vestibulum odio porta commodo. Pellentesque est ante, tincidunt ac porttitor eu, efficitur non purus. Nullam sodales lacus eu posuere sodales. Integer egestas, quam vel facilisis mollis, elit magna ornare nibh, sit amet ornare mauris dolor at lectus. Curabitur vitae lorem quis risus vehicula dignissim.
-    Ut convallis pulvinar molestie. Etiam accumsan dui et velit pulvinar, in scelerisque mauris consectetur. Duis a sagittis nunc. Curabitur turpis elit, pulvinar nec commodo vel, ullamcorper sit amet est. Proin quis elementum risus. Vivamus eu lorem id ipsum vestibulum scelerisque at venenatis nibh. Phasellus finibus turpis in enim fringilla, sed efficitur ligula dictum. Donec maximus, urna sit amet interdum blandit, mi quam egestas libero, euismod eleifend sem mi eget magna. Praesent mattis malesuada diam eget ornare. Mauris porttitor congue mi, ac congue nisl facilisis eu. Maecenas quis leo ac arcu volutpat placerat eget quis libero. Duis gravida, leo at gravida elementum, mauris lacus dapibus elit, sollicitudin mattis mi elit eget nulla.
-    Donec non commodo urna, quis posuere augue. Maecenas at enim dui. Duis tempus nisl massa, iaculis euismod felis rhoncus vel. Vivamus eget convallis sapien, vel vestibulum enim. Suspendisse maximus nisi sed metus ornare pellentesque. Nulla aliquet ante at vestibulum luctus. Sed interdum turpis id faucibus tempus. Integer laoreet lacus sed risus placerat, at pulvinar sapien efficitur. Nulla consectetur ut lectus vel semper. Praesent elementum eu purus ac tincidunt. Curabitur at interdum ex. Suspendisse imperdiet, eros vel condimentum fringilla, nisl libero vulputate dui, vitae placerat mauris velit non quam. Aliquam convallis, enim at commodo semper, augue velit finibus mi, ac lobortis quam dolor eget dui.
-  </div>
-
+    <div class="aboutUsBox pa4 mt4">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent est
+        lorem, malesuada quis euismod quis, ornare in mauris. Lorem ipsum dolor
+        sit amet, consectetur adipiscing elit. Orci varius natoque penatibus et
+        magnis dis parturient montes, nascetur ridiculus mus. Duis risus est,
+        dignissim sit amet nisi eu, venenatis lobortis ex. Sed ultrices
+        vestibulum ultricies. In hac habitasse platea dictumst. Nunc ac varius
+        risus, at efficitur mauris. Cras non massa diam. Ut finibus erat tortor,
+        vel congue risus auctor a. Fusce ac consectetur velit, vitae convallis
+        libero. Donec nec justo eget magna accumsan vulputate et ac odio.
+        Quisque vulputate lorem libero, ac vestibulum odio porta commodo.
+        Pellentesque est ante, tincidunt ac porttitor eu, efficitur non purus.
+        Nullam sodales lacus eu posuere sodales. Integer egestas, quam vel
+        facilisis mollis, elit magna ornare nibh, sit amet ornare mauris dolor
+        at lectus. Curabitur vitae lorem quis risus vehicula dignissim. Ut
+        convallis pulvinar molestie. Etiam accumsan dui et velit pulvinar, in
+        scelerisque mauris consectetur. Duis a sagittis nunc. Curabitur turpis
+        elit, pulvinar nec commodo vel, ullamcorper sit amet est. Proin quis
+        elementum risus. Vivamus eu lorem id ipsum vestibulum scelerisque at
+        venenatis nibh. Phasellus finibus turpis in enim fringilla, sed
+        efficitur ligula dictum. Donec maximus, urna sit amet interdum blandit,
+        mi quam egestas libero, euismod eleifend sem mi eget magna. Praesent
+        mattis malesuada diam eget ornare. Mauris porttitor congue mi, ac congue
+        nisl facilisis eu. Maecenas quis leo ac arcu volutpat placerat eget quis
+        libero. Duis gravida, leo at gravida elementum, mauris lacus dapibus
+        elit, sollicitudin mattis mi elit eget nulla. Donec non commodo urna,
+        quis posuere augue. Maecenas at enim dui. Duis tempus nisl massa,
+        iaculis euismod felis rhoncus vel. Vivamus eget convallis sapien, vel
+        vestibulum enim. Suspendisse maximus nisi sed metus ornare pellentesque.
+        Nulla aliquet ante at vestibulum luctus. Sed interdum turpis id faucibus
+        tempus. Integer laoreet lacus sed risus placerat, at pulvinar sapien
+        efficitur. Nulla consectetur ut lectus vel semper. Praesent elementum eu
+        purus ac tincidunt. Curabitur at interdum ex. Suspendisse imperdiet,
+        eros vel condimentum fringilla, nisl libero vulputate dui, vitae
+        placerat mauris velit non quam. Aliquam convallis, enim at commodo
+        semper, augue velit finibus mi, ac lobortis quam dolor eget dui.
+    </div>
 </div>

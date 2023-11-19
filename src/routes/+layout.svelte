@@ -1,5 +1,4 @@
 <script>
-  import SiteFooter from "../comps/SiteFooter.svelte";
 import "../css/styles.css";
   import "../css/tachyons.css";
 </script>
@@ -8,6 +7,5 @@ import "../css/styles.css";
   <main>
     <slot />
   </main>
-  <SiteFooter />
 
 </div>

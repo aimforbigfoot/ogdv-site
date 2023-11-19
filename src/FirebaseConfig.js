@@ -1,9 +1,9 @@
 export const firebaseConfig = {
-    apiKey: "AIzaSyDq3QmnMLq-JdEwhiJ6J223A5BViBzVZWk",
-    authDomain: "ogdv-site.firebaseapp.com",
-    projectId: "ogdv-site",
-    storageBucket: "ogdv-site.appspot.com",
-    messagingSenderId: "287596772362",
-    appId: "1:287596772362:web:9240231fa5c46aa1f0f3f3",
-    measurementId: "G-DNL0JVJJW8"
-  };
+    apiKey: 'AIzaSyA4zOcYQL5lLkagFUX_MmKbIG5Vny0Afr4',
+    authDomain: 'odgvsite.firebaseapp.com',
+    projectId: 'odgvsite',
+    storageBucket: 'odgvsite.appspot.com',
+    messagingSenderId: '1035544394986',
+    appId: '1:1035544394986:web:6fcc1d79537b2bef202b93',
+    measurementId: 'G-4RHGL46NZW',
+};

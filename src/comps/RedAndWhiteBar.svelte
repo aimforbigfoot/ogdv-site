@@ -1,5 +1,1 @@
-
-
-<div class="redAndWhiteBar">
-.
-</div>
+<!-- <div class="redAndWhiteBar">.</div> -->
