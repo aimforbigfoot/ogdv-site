@@ -58,8 +58,7 @@ body {
     border: 0.5em;
     border-style: solid;
     border-color: aliceblue;
-	padding: 1em;
-}
+	padding: 1em;}
 
 h1,
 h2,
@@ -118,7 +117,6 @@ h2 {
   }
 
   .bigBlitzText{
-	font-size: 8em;
 	padding: 0;
 	margin:  0;
 	padding-top: -1em;
