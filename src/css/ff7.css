@@ -22,6 +22,9 @@ div.ff7{
   -moz-border-radius: 7px;
   border-radius: 7px;
 }
+div.ff7 h1{
+	font-size: 30px;
+}
 div.ff7 *{
   color: #eff1ff;
   text-shadow: 2px 2px #212421,
