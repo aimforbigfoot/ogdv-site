@@ -67,7 +67,7 @@
               name="email-address"
               bind:value={userEmail}
             />
-            <button class="" on:click={subBtnPress}>[Subscribe]</button>
+            <button class="ff7" on:click={subBtnPress}>[SEND] </button>
           </div>
         {/if}
         {#if signedUpSuccessfully}
@@ -81,7 +81,7 @@
       </section>
       {#if showWarningError}
         <div class="bg-black br-pill red tc pa3 f2 mt3">
-          ERROR: INVALID EMAIL
+          ERROR: Make sure your email is properly formatted.
         </div>
       {/if}
     </div>

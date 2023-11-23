@@ -14,5 +14,21 @@
       lorem libero, ac vestibulum odio porta commodo. Pellentesque est ante,
       tincidunt ac porttitor eu, efficitur non purus.
     </p>
+    <br />
+    <div class="flex flex-col md:flex-row justify-around">
+      <div class="ff7 divBtn">SPONSOR PACKAGE</div>
+      <div class="ff7 divBtn">CONTACT US</div>
+    </div>
   </div>
 </div>
+
+<style>
+  .divBtn {
+    cursor: pointer;
+    padding: 10px 15px;
+    margin: 8px;
+  }
+  .divBtn:hover {
+    background-color: #6b00b3;
+  }
+</style>

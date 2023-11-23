@@ -1,15 +1,7 @@
 <footer
-  class="tc bg-black white pt3 mt4 pb4 mt0 pt0 footer mw8 ml-auto mr-auto"
+  class="text-center h-10 max-h-10 bg-black text-white flex flex-row justify-center items-centerW"
 >
-  <div class="f3 b">Ontario Game Dev Blitz™ 2023</div>
-  <div class="flex justify-between text-center ml-auto mr-auto">
-    <p class="b f4">amongus</p>
-    <!--
-        <a class="w-33 b f4" href="/contact">Contact Us</a>
-        <a class="w-33 b f4" href="/aboutUs">About Us</a>
-        <a class="w-33 b f4" href="/sponsor">Become a Sponser</a>
-        -->
-  </div>
+  <div class="f3 font-bold">Made with 🕹️ from the OGVB team.</div>
 </footer>
 
 <style>
