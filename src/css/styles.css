@@ -47,18 +47,10 @@ body {
 	max-width: 1280px;
 }
 
-.aboutUsBox {
-	margin-left: auto;
-	margin-right: auto;
-	padding-top: 3ch;
-    border-radius: 30px;
-	background-color: black;
-    /* background-color: navy; */
-    color: whitesmoke;
-    border: 0.5em;
-    border-style: solid;
-    border-color: aliceblue;
-	padding: 1em;}
+.inputFont{
+	font-family: 'Courier New', Courier, monospace;
+	font-size: xx-large;
+}
 
 h1,
 h2,

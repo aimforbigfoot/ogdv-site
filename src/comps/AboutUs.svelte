@@ -1,8 +1,5 @@
-<script>
-</script>
-
-<div class="boxAround w-80 ml-auto mr-auto pa4" id="aboutUs">
-  <div class="aboutUsBox ff7 pa4 mt4 text-lg">
+<div class="mx-auto max-w-screen-xl w-100 mx-auto p-4" id="aboutUs">
+  <div class="ff7 text-lg mx-auto pt-3 p-4">
     <h1 class="text-left">ABOUT US:</h1>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent est

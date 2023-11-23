@@ -8,6 +8,7 @@
     class="flex flex-col md:flex-row justify-between items-center w-90 md:w-full lg:max-w-screen-lg mt-5 md:mt-0 landing-title mr-4 md:pr-4"
   >
     <div class="mr-4">
+      <!--
       <div
         class="ml2 mr2 b tc br b--white border w-100-l flex flex-row lg:flex-col justify-around h-100"
       >
@@ -15,8 +16,9 @@
         <a class="pv3 mv3 f3" use:scrollTo={"eventInfo"}>EVENT INFO</a>
         <a class=" mv3 f3" use:scrollTo={"signUp"}>SIGN UP</a>
       </div>
+      -->
     </div>
-    <div class="max-w-5xl">
+    <div class="max-w-3xl w-1/3">
       <img src={logo} alt="logo" class="logo-image" />
     </div>
     <div

@@ -16,19 +16,18 @@
 <main class="w-100-l rainbow-box">
   <IntroPage />
   <hr />
-  <div class="div" use:scrollRef={"about"}>
+  <div use:scrollRef={"about"}>
     <AboutUs />
   </div>
   <hr />
+  <!--
   <div class="eventInfoDiv" use:scrollRef={"eventInfo"}>
     <EventInfo />
   </div>
+  -->
   <hr />
   <div class="signUP" use:scrollRef={"signUp"}>
     <EmailSignUp />
-  </div>
-  <div>
-    <Faq />
   </div>
 
   <hr />
