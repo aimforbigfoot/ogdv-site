@@ -34,3 +34,7 @@ div.ff7 *{
   font-weight: normal;
   margin: 5px 0;
 }
+
+div.input{
+  font-family: 'Courier New', Courier, monospace;
+}

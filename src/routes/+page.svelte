@@ -13,22 +13,18 @@
   <meta name="description" content="Svelte demo app" />
 </svelte:head>
 
-<main class="w-100-l rainbow-box">
+<main class="w-full lg:w-100 rainbow-box">
   <IntroPage />
-  <hr />
-  <div class="div" use:scrollRef={"about"}>
+  <div use:scrollRef={"about"}>
     <AboutUs />
   </div>
-  <hr />
+  <!--
   <div class="eventInfoDiv" use:scrollRef={"eventInfo"}>
     <EventInfo />
   </div>
-  <hr />
+  -->
   <div class="signUP" use:scrollRef={"signUp"}>
     <EmailSignUp />
-  </div>
-  <div>
-    <Faq />
   </div>
 
   <hr />
