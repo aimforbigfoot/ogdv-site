@@ -1,0 +1,7 @@
+- un nad-labs the project format lmao
+- get side bar working
+- center between logo and text (just ask for new version to simplify things)
+- header
+- about paragraph
+- faq section
+- button for getting the sponsor package.

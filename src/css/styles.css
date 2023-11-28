@@ -19,7 +19,7 @@
 
 
 .rainbow-box {
-	background-image: url("../lib/images/background.png");
+	background-image: url("img/background.png");
 	background-size:100% auto;
     background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -74,16 +74,10 @@ h2 {
 	font-size: 1rem;
 }
 
-.redAndWhiteBar{
-		background: url("../lib/images/chacker_left_boarder.png");
-
-		position: absolute;  /* Start with absolute positioning */
-		top: 0;              
-		left: 0;             
-		width: 24px;         
-		height: 2249px;        /* Height of the image */
-		z-index: 9999;     
+.red-and-white-bar{
+		background: url("img/chacker_left_boarder.png");	
 }
+
 
 
 .white-text-with-red-shadow {
