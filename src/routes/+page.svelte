@@ -14,13 +14,12 @@
 
 <main class="w-full lg:w-100 flex rainbow-box">
   <div class="red-and-white-bar w-6 bg-red-500 h-screen"></div>
-  <div class="flex justify-around flex-1">
+  <div class="MAIN-SECTION flex flex-col items-center flex-1">
     <div
-      class="flex flex-col md:flex-row items-center w-90 md:w-full lg:max-w-screen-lg mt-5 md:mt-0 landing-title mr-4 md:pr-4"
+      class="flex items-center justify-center lg mt-5 md:mt-0 landing-title mr-4"
     >
-      <div class="max-w-3xl w-1/3">
-        <img src={"img/logo.png"} alt="logo" class="logo-image" />
-      </div>
+      <img src={"img/logo.png"} alt="logo" class="max-w-xl" />
+      <!--
       <div
         class="text-left inline-block pl-16 text-4xl text-white pulsating-shadow"
       >
@@ -36,6 +35,11 @@
           BLITZ
         </h1>
       </div>
+      -->
     </div>
+    <h2 class="text-white text-center">Onatrio's First Jamathon</h2>
+    <div>about us</div>
+    <div>faq</div>
+    <div>reach out/sponsor package</div>
   </div>
 </main>
